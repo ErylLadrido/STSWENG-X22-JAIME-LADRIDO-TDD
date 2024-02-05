@@ -42,7 +42,7 @@ describe('Post controller', () => {
                 _id: '507asdghajsdhjgasd',
                 title: 'My first test post',
                 content: 'Random content',
-                author: 'stswenguser',
+                author: 'wrong',
                 date: Date.now()
             };
 
