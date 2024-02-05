@@ -3,6 +3,6 @@
 const mongoose = require('mongoose');
 const databaseURL = 'mongodb://localhost:27017/logindb';
 
-mongoose.connect(databaseURL);
+mongoose.connect(databaseURL, options);
 
 module.exports = mongoose;
