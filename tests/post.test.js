@@ -41,8 +41,8 @@ describe('Post controller', () => {
             expectedResult = {
                 _id: '507asdghajsdhjgasd',
                 title: 'My first test post',
-                content: 'Random content',
-                author: 'wrong',
+                content: 'Specific content',
+                author: 'stswenguser',
                 date: Date.now()
             };
 
